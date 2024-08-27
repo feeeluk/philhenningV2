@@ -9,7 +9,7 @@ export default function Projects() {
           language="Next.js"
           db="PostgreSQL"
           image="peasant_screenshot.png"
-          description="Built on the back of completing the Tech-Educators 'Software Development' bootcamp. This is my first project using Next.js."
+          description="Built on the back of completing the Tech-Educators 'Software Development' bootcamp. Built using Next.js."
         />
 
         <Project
