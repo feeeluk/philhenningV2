@@ -81,8 +81,8 @@ h3{
 .Item{
   height: 100px;
   width: 100px;
-  background-color:#6b6767;
-  border: 1px solid rgba(255, 255, 255, 0.315);
+  background-color: rgb(158, 152, 144);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -99,10 +99,10 @@ h3{
   text-align: left;
   font-size: 14px;
   font-weight: 300;
-  border: 1px solid rgba(255, 255, 255, 0.315);
+  background-color:rgba(114, 114, 109, 0.350);
+  border: 1px solid rgba(219, 213, 213, 0.500);
   border-radius: 5px;
   margin-bottom: 15px;
-  background-color:#6b6767;
 }
 
 .ProjectRow{
