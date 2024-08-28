@@ -1,6 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
 
-export default function Project({name, type, language, db, description, image}){
+export default function Project({name, type, language, db, projectManagementTool, whiteBoardingTool, description, link, image}){
     return(
         <>
 
@@ -8,7 +9,7 @@ export default function Project({name, type, language, db, description, image}){
 
                 
                 <div className="ProjectRow">
-                    <div className="Name">{name}</div>
+                    <div className="Name"><h3>{name}</h3></div>
                 </div>
 
                 <div className="ProjectRow">
@@ -25,7 +26,11 @@ export default function Project({name, type, language, db, description, image}){
                         <div className="DetailContainer">     
                             <div className="DetailItem">Db: </div>
                             <div className="DetailInfo">{db}</div>
-                        </div> 
+                        </div>
+                        <div className="DetailContainer">     
+                            <div className="DetailItem">Tools:</div>
+                            <div className="DetailInfo">{projectManagementTool}{whiteBoardingTool}</div>
+                        </div>
 
 
   
@@ -37,14 +42,17 @@ export default function Project({name, type, language, db, description, image}){
                     </div>
 
                     <div className="ProjectColumn3">
-                        <Image
-                            src={`/Projects/${image}`}
-                            alt="snapshot of project"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{ width: '100%', height: 'auto' }} // optional
-                        />
+                        
+                        <Link target="blank" href={`${link}`}>
+                            <Image
+                                src={`/Projects/${image}`}
+                                alt="snapshot of project"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: '100%', height: 'auto' }} // optional
+                            />
+                        </Link>
                     </div>
 
                 </div>

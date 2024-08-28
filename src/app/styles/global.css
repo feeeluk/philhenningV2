@@ -38,6 +38,7 @@ p {
 h3{
   margin-top: 15px;
   margin-bottom: 5px;
+  color: #F0870F;
 }
 
 .PageLayout{
@@ -80,7 +81,8 @@ h3{
 .Item{
   height: 100px;
   width: 100px;
-  background-color:blanchedalmond;
+  background-color:#6b6767;
+  border: 1px solid rgba(255, 255, 255, 0.315);
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -97,23 +99,20 @@ h3{
   text-align: left;
   font-size: 14px;
   font-weight: 300;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.315);
   border-radius: 5px;
   margin-bottom: 15px;
+  background-color:#6b6767;
 }
 
 .ProjectRow{
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .Name{
-  color: #F0870F;
-  font-size: 16px;
-  font-weight: 600;
-  padding-left: 25%;
+  padding-left: 22%;
   padding-top: 10px;
   margin-bottom: 2px;
 }
@@ -121,20 +120,19 @@ h3{
 .ProjectColumn1{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 10px;
-  width: 25%;
+  width: 22%;
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 10px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .ProjectColumn2{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 43%;
+  width: 46%;
   padding-top: 5px;
   padding-left: 0px;
   padding-right: 10px;
@@ -144,19 +142,19 @@ h3{
 .ProjectColumn3{
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-content:flex-start;
   justify-content: left;
   width: 32%;
   padding-top: 5px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 10px;
   padding-bottom: 10px;
 }
 
 .DetailContainer{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -166,7 +164,7 @@ h3{
 
 .DetailInfo{
   color: #96B946;
-  font-weight: 500;
+  font-weight: 600;
   width: 100%;
 }
 

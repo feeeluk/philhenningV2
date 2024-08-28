@@ -8,15 +8,21 @@ export default function Projects() {
           type="Project"
           language="Next.js"
           db="PostgreSQL"
+          projectManagementTool="Trello, "
+          whiteBoardingTool="Miro"
+          link="https://peasant.philhenning.co.uk"
           image="peasant_screenshot.png"
-          description="Built on the back of completing the Tech-Educators 'Software Development' bootcamp. Built using Next.js."
+          description="Built on the back of completing the Tech-Educators 'Software DeveloprojectManagementToolent' bootcamp. Built using Next.js."
         />
 
         <Project
           name="Race V2"
           type="Project"
-          language="C# & Entity Framework"
+          language="C#, Entity Framework"
           db="MSQLS"
+          projectManagementTool="Trello, "
+          whiteBoardingTool="Miro"
+          link=""
           image="car_race_screenshot.png"
           description="This has become my first 'real' C# project, and I am using it as a means of implementing things that I have learned.
 
@@ -28,7 +34,10 @@ export default function Projects() {
           name="C# Fundamentals (Pluralsight)"
           type="Course"
           language="C#"
-          db="none"
+          db=""
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link=""
           image="c_sharp_fundamentals_screenshot.png"
           description="A tutorial that consisted of 11 lessons.
 
@@ -43,7 +52,10 @@ export default function Projects() {
           name="Race V1"
           type="Project"
           language="C#"
-          db="none"
+          db=""
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link=""
           image="car_race_screenshot.png"
           description="This was the first incarnation of the 'Race' project."
         />
@@ -52,7 +64,10 @@ export default function Projects() {
           name="Workout"
           type="Project"
           language="C#"
-          db="none"
+          db=""
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link=""
           image="workout_screenshot.png"
           description="	My first attempt at creating a project to solve a simple problem.
 
@@ -64,8 +79,11 @@ export default function Projects() {
         <Project
           name="C# for beginners (Bro Code)"
           type="Course"
-          language="C'"
-          db="none"
+          language="C#"
+          db=""
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link=""
           image="brocode_screenshot.png"
           description="	A tutorial that consists of 50 lessons.
 
@@ -78,6 +96,9 @@ export default function Projects() {
           type="Proof of concept"
           language="PHP, HTML, CSS"
           db="MySQL"
+          projectManagementTool="Trello, "
+          whiteBoardingTool=""
+          link="http://treedata.co.uk"
           image="treedata_screenshot.png"
           description="This is a current Proof Of Concept for a commercial client (although undertaken without recompense).
 
@@ -89,7 +110,10 @@ export default function Projects() {
           name="philhenning.co.uk"
           type="Project"
           language="Next.js, HTML, CSS"
-          db="none"
+          db=""
+          projectManagementTool="Trello, "
+          whiteBoardingTool="Miro "
+          link=""
           image="philhenning_screenshot.png"
           description="The site you are currently looking at is a project of mine that I am still regularly working on."
         />
@@ -99,8 +123,11 @@ export default function Projects() {
           type="Project"
           language="PHP, HTML, CSS"
           db="MySQL"
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link="https://snowcompare.philhenning.co.uk"
           image="snowcompare_screenshot.png"
-          description="This was my first piece of web development coursework at university. Primarily made to showcase my development skills."
+          description="This was my first piece of web developrojectManagementToolent coursework at university. Primarily made to showcase my developrojectManagementToolent skills."
         />
 
         <Project
@@ -108,8 +135,11 @@ export default function Projects() {
           type="Project"
           language="PHP, HTML, CSS"
           db="MySQL"
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link="https://snowcompareshop.philhenning.co.uk"
           image="snowcompare_shop_screenshot.png"
-          description="This was my second piece of web development coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end."
+          description="This was my second piece of web developrojectManagementToolent coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end."
         />
 
         <Project
@@ -117,6 +147,9 @@ export default function Projects() {
           type="Proof of concept"
           language="PHP, HTML. CSS"
           db="MySQL"
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link=""
           image="points_academy_screenshot.png"
           description=""
         />
@@ -126,6 +159,9 @@ export default function Projects() {
           type="Proof of concept"
           language="PHP, HTML, CSS"
           db="MySQL"
+          projectManagementTool=""
+          whiteBoardingTool=""
+          link=""
           image="portal_screenshot.png"
           description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration (SimplePortal System - see below) would take that next evolutionary step."
         />
