@@ -79,7 +79,7 @@ h3{
 .Footer{
   background-color: #404040;
   color: #96B946;
-  width: 900px;
+  width: 100%;
   height: 50px;
   position: fixed;
   bottom: 0;
@@ -119,7 +119,7 @@ h3{
   text-align: left;
   font-size: 14px;
   font-weight: 300;
-  background-color:rgba(114, 114, 109, 0.350);
+  background-color:rgba(114, 114, 109, 1);
   border: 1px solid rgba(219, 213, 213, 0.500);
   border-radius: 5px;
   margin-bottom: 15px;
