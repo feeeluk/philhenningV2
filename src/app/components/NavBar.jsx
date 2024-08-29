@@ -4,7 +4,8 @@ import Image from "next/image"
 export default function NavBar(){
     return(
 
-        <>
+        <div className="NavBar">
+
             <div className="Logo">
                 <Image src="/main-logo.png" alt="main-logo" width="450" height="150" />
             </div>
@@ -34,6 +35,7 @@ export default function NavBar(){
                 <Link href="https://1drv.ms/o/s!Ag9ZukAL9sZOog6eqf_5CXVrdJhz?e=QhPtT8" target="_blank">Notes</Link>
                          
             </nav>
-        </>
+            
+        </div>
     )
 }

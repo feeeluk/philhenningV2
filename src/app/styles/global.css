@@ -14,8 +14,7 @@ Text = white
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  width: 100vw;
   text-align: center;
   background-color: #404040;
   color: white;
@@ -44,27 +43,48 @@ h3{
 .PageLayout{
   margin: auto;
   width: 900px;
-  /* background-color: red; */
-}
+  position: relative;
+  top: 200px;
+  margin-bottom: 260px;
+  }
 
 /* NavBar */
-
-/* Logo / Text */
-.Logo{
-  color: #96B946;
-  margin: auto;
+.NavBar{
+  position:fixed;
+  top: 0;
+  height: 200px;
+  width: 900px;
+  background-color: #404040;
 }
 
-.Logo Image{
-  border: 0px;
-}
+        /* Logo / Text */
+        .Logo{
+          color: #96B946;
+          margin: auto;
+        }
 
-/* Links */
-.Link{
+        .Logo Image{
+          border: 0px;
+        }
+
+        /* Links */
+        .Link{
+          color: #96B946;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-weight: 600;
+        }
+
+/* Footer */
+.Footer{
+  background-color: #404040;
   color: #96B946;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-weight: 600;
+  width: 900px;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -166,9 +186,4 @@ h3{
   color: #96B946;
   font-weight: 600;
   width: 100%;
-}
-
-/* Footer */
-.Footer{
-  color: #96B946;
 }
