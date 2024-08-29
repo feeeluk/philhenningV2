@@ -6,20 +6,14 @@ import Footer from "@/app/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL('https://philhenning.co.uk'),
   title: "philhenning.co.uk",
   description: "portfolio",
   openGraph:{
     title: "philhenning.co.uk",
     description: "portfolio",
     type: "website",
-    images: [
-              {
-                url: "/Projects/philhenning_screenshot.png",
-                width: 600,
-                height: 302,
-              },
-            ],      
+    url: "https://philhenning-v2.vercel.app/",
+    images: ["https://philhenning-v2.vercel.app/philhenning_screenshot.png"], // add an appropriate image to your public folder 
   },
 };
 
