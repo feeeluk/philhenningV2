@@ -40,53 +40,52 @@ h3{
   color: #F0870F;
 }
 
-.PageLayout{
-  margin: auto;
-  width: 900px;
-  position: relative;
-  top: 200px;
-  margin-bottom: 260px;
-  }
-
 /* NavBar */
 .NavBar{
   position:fixed;
   top: 0;
   height: 200px;
-  width: 900px;
+  width: 100%;
   background-color: #404040;
+  z-index: 10;
 }
 
         /* Logo / Text */
-        .Logo{
-          color: #96B946;
-          margin: auto;
-        }
-
-        .Logo Image{
-          border: 0px;
-        }
-
-        /* Links */
-        .Link{
-          color: #96B946;
-          margin-top: 15px;
-          margin-bottom: 15px;
-          font-weight: 600;
-        }
-
-/* Footer */
-.Footer{
-  background-color: #404040;
-  color: #96B946;
-  width: 100%;
-  height: 50px;
-  position: fixed;
-  bottom: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
+                .Logo{
+                  color: #96B946;
+                }
+                
+                .Logo Image{
+                  border: 0px;
+                }
+                
+                /* Links */
+                .Link{
+                  color: #96B946;
+                  margin-top: 15px;
+                  margin-bottom: 15px;
+                  font-weight: 600;
+                }
+                
+  /* Footer */
+  .Footer{
+    background-color: #404040;
+    color: #96B946;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    padding-top: 15px;
+    z-index: 10;
+  }
+        
+.PageLayout{
+  margin: auto;
+  width: 900px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  }
+        
 
 /* HOME PAGE */
 /* Items */
