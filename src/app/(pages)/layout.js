@@ -6,13 +6,13 @@ import Footer from "@/app/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Philhenning.co.uk",
-  description: "Portfolio",
+  title: "philhenning.co.uk",
+  description: "portfolio",
   openGraph:{
-    title: "Philhenning.co.uk",
-    description: "Portfolio",
+    title: "philhenning.co.uk",
+    description: "portfolio",
     type: "website",
-    image: ["/Projects/philhenning_screenshot.png"],
+    image: "/Projects/philhenning_screenshot.png",
   },
 };
 
