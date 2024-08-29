@@ -26,48 +26,182 @@ export default function Home() {
       <h3>Dev Skills</h3>
 
       <div className="ItemContainer">
-        <ItemSkill name="C#" image="CSharp.png" />
-        <ItemSkill name="Entity Framework" image="EntityFramework.png" />
-        <ItemSkill name=".Net" image="DotNET.png" />
-        <ItemSkill name="JavaScript" image="JS.png" />
-        <ItemSkill name="React" image="React.png" />
-        <ItemSkill name="Next.js" image="Next.png" />
-        <ItemSkill name="HTML" image="HTML.png" />
-        <ItemSkill name="CSS" image="CSS.png" />
-        <ItemSkill name="PHP" image="PHP.png" />
+        <ItemSkill
+          name="C#"
+          image="CSharp.png"
+          description="Self-taught, several tutorials and projects."
+        />
+
+        <ItemSkill
+          name="Entity Framework"
+          image="EntityFramework.png"
+          description="Self-taught."
+        />
+
+        <ItemSkill
+          name=".Net"
+          image="DotNET.png"
+          description="Learning alongside C#, e.g. I am learning Entity Framework."
+        />
+          
+        <ItemSkill
+          name="JavaScript"
+          image="JS.png"
+          description="Self taught and instructor led (software development bootcamp)."
+        />
+          
+        <ItemSkill
+          name="React"
+          image="React.png"
+          description="Self taught and instructor led (software development bootcamp)."
+        />
+          
+        <ItemSkill
+          name="Next.js"
+          image="Next.png"
+          description="Self taught and instructor led (software development bootcamp)."
+        />
+          
+        <ItemSkill
+          name="HTML"
+          image="HTML.png"
+          description="Experienced - created several web sites."
+        />
+          
+        <ItemSkill
+          name="CSS"
+          image="CSS.png"
+          description="Experienced - created several web sites."
+        />
+          
+        <ItemSkill
+          name="PHP"
+          image="PHP.png"
+          description="Somewhat experienced - created several database driven sites."
+        />
+          
       </div>
 
       <h3>Experience with database systems</h3>
 
       <div className="ItemContainer">
-        <ItemDb name="SQL" image="SQL.png" />
-        <ItemDb name="MySQL" image="MySQL.png" />
-        <ItemDb name="phpMyAdmin" image="phpMyAdmin.png" />
-        <ItemDb name="MSSQLS" image="MSSQLS.png" />
-        <ItemDb name="SQL Server Management Studio" image="MSSMS.png" />
-        <ItemDb name="PostgreSQL" image="Postgre.png" />
+        <ItemDb
+          name="SQL"
+          image="SQL.png"
+          description="Somewhat experienced."
+        />
+
+        <ItemDb
+          name="MySQL"
+          image="MySQL.png"
+          description="Somewhat experienced."
+        />
+
+        <ItemDb
+          name="phpMyAdmin"
+          image="phpMyAdmin.png"
+          description="Somewhat experienced."
+        />
+
+        <ItemDb
+          name="MSSQLS"
+          image="MSSQLS.png"
+          description="Somewhat experienced."
+        />
+
+        <ItemDb
+          name="SQL Server Management Studio"
+          image="MSSMS.png"
+          description="Somewhat experienced."
+        />
+
+        <ItemDb
+          name="PostgreSQL"
+          image="Postgre.png"
+          description="Somewhat experienced."
+        />
+
       </div>
 
       <h3>Experience with Agile Methodologies</h3>
 
       <div className="ItemContainer">
-        <ItemAgile name="SCRUM" image="SCRUM.png" />
-        <ItemAgile name="SAFE" image="SAFE.png" />
+        <ItemAgile
+          name="SCRUM"
+          image="SCRUM.png"
+          description="Experienced (5+ years). I am a SCRUM advocate."
+        />
+
+        <ItemAgile
+        name="SAFE"
+        image="SAFE.png"
+        description="Some experience (6 months)."
+        />
       </div>
 
       <h3>Experience with Tools</h3>
 
       <div className="ItemContainer">
-        <ItemTool name="GIT" image="GIT.png" />
-        <ItemTool name="Trello" image="Trello.png" />
-        <ItemTool name="Azure DevOps" image="Azure.png" />
-        <ItemTool name="Miro" image="Miro.png" />
-        <ItemTool name="Visual Studio" image="VisualStudio.png" />
-        <ItemTool name="VS Code" image="VSCode.png" />
-        <ItemTool name="Teams" image="Teams.png" />
-        <ItemTool name="Slack" image="Slack.png" />
-        <ItemTool name="Discord" image="Discord.png" />
-        <ItemTool name="Ubuntu" image="Ubuntu.png" />
+        <ItemTool
+        name="GIT"
+        image="GIT.png"
+        description="Daily use, familiar with branching & pull requests."
+        />
+
+        <ItemTool
+        name="Trello"
+        image="Trello.png"
+        description="Experienced. Daily use."
+        />
+
+        <ItemTool
+        name="Azure DevOps"
+        image="Azure.png"
+        description="Experienced."
+        />
+
+        <ItemTool
+        name="Miro"
+        image="Miro.png"
+        description="Experienced. Regular use."
+        />
+
+        <ItemTool
+        name="Visual Studio"
+        image="VisualStudio.png"
+        description="Somewhat experienced."
+        />
+
+        <ItemTool
+        name="VS Code"
+        image="VSCode.png"
+        description="Somewhat experienced."
+        />
+
+        <ItemTool
+        name="Teams"
+        image="Teams.png"
+        description="Experienced. Daily use."
+        />
+
+        <ItemTool
+        name="Slack"
+        image="Slack.png"
+        description="Experienced. Daily use."
+        />
+
+        <ItemTool
+        name="Discord"
+        image="Discord.png"
+        description="Experienced. Daily use."
+        />
+
+        <ItemTool
+        name="Ubuntu"
+        image="Ubuntu.png"
+        description="Somewhat experienced. Daily use."
+        />
+
       </div>
       
     </>
