@@ -13,7 +13,7 @@ export const metadata = {
     description: "portfolio",
     type: "website",
     url: "https://philhenning-v2.vercel.app/",
-    images: ["https://philhenning-v2.vercel.app/philhenning_screenshot.png"], // add an appropriate image to your public folder 
+    images: ["https://philhenning-v2.vercel.app/Projects/philhenning_screenshot.png"], // add an appropriate image to your public folder 
   },
 };
 
