@@ -8,7 +8,7 @@ export default function Projects() {
           <Project
             name="Who wants to be less of a peasant?"
             type="Project"
-            language="Next.js"
+            language="JavaScript (Next.js)"
             db="PostgreSQL"
             projectManagementTool="Trello, "
             whiteBoardingTool="Miro"
@@ -171,9 +171,9 @@ export default function Projects() {
             db="MySQL"
             projectManagementTool=""
             whiteBoardingTool=""
-            link=""
+            link="https://pointsacademy.philhenning.co.uk"
             image="points_academy_screenshot.png"
-            description=""
+            description="This client had a highly successful line of orthapedic products for which they already had a reward system in place, however the administration involved was significant and laborious. This proof of concept application successfully demonstrated that the process could be transformed to digital with ease, and could - at the same time - provide existing customers an online platform to manage their reward account. The concept was eventually adopted by the company."
           />
         </Hover2>
 
@@ -185,7 +185,7 @@ export default function Projects() {
             db="MySQL"
             projectManagementTool=""
             whiteBoardingTool=""
-            link=""
+            link="https://portal.philhenning.co.uk"
             image="portal_screenshot.png"
             description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration (SimplePortal System - see below) would take that next evolutionary step."
           />
