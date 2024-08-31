@@ -8,8 +8,8 @@ Text = white
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 html,
@@ -31,7 +31,6 @@ a:hover{
 
 p {
   text-align: left;
-  font-size: 14px;
 }
 
 h3{
@@ -51,21 +50,21 @@ h3{
 }
 
         /* Logo / Text */
-                .Logo{
-                  color: #96B946;
-                }
-                
-                .Logo Image{
-                  border: 0px;
-                }
-                
-                /* Links */
-                .Link{
-                  color: #96B946;
-                  margin-top: 15px;
-                  margin-bottom: 15px;
-                  font-weight: 600;
-                }
+        .Logo{
+          color: #96B946;
+        }
+        
+        .Logo Image{
+          border: 0px;
+        }
+        
+        /* Links */
+        .Link{
+          color: #96B946;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-weight: 600;
+        }
                 
   /* Footer */
   .Footer{
@@ -78,18 +77,18 @@ h3{
     padding-top: 15px;
     z-index: 10;
   }
-        
-.PageLayout{
-  margin: auto;
-  width: 900px;
-  margin-top: 200px;
-  margin-bottom: 50px;
-  }
-        
+  
+  /* PageLayout */
+  .PageLayout{
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background-color: blue;
+    }
 
 /* HOME PAGE */
-/* Items */
 
+/* Items */
 .ItemContainer{
   display: flex;
   flex-direction: row;
@@ -199,4 +198,37 @@ h3{
   color: #96B946;
   font-weight: 600;
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  
+  html,body {
+    font-size: 12px;
+  }
+
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* PageLayout */
+  .PageLayout{
+    width: 600px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+  
+  html,body {
+    font-size: 14px;
+  }
+
+  p {
+    padding: 0px;
+  }
+  
+  /* PageLayout */
+  .PageLayout{
+    width: 800px;
+    }
 }
