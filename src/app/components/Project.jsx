@@ -32,9 +32,6 @@ export default function Project({name, type, language, db, projectManagementTool
                             <div className="DetailInfo">{projectManagementTool}{whiteBoardingTool}</div>
                         </div>
 
-
-  
-
                     </div>
 
                     <div className="ProjectColumn2">
@@ -45,6 +42,7 @@ export default function Project({name, type, language, db, projectManagementTool
                         
                         <Link target="blank" href={`${link}`}>
                             <Image
+                                className="Image"
                                 src={`/Projects/${image}`}
                                 alt="snapshot of project"
                                 width={0}

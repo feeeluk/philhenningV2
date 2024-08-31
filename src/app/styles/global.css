@@ -178,6 +178,16 @@ h3{
   padding-bottom: 10px;
 }
 
+
+.Image{
+  border-radius: 3px;
+}
+
+.ProjectContainer:hover .Image{
+  border: 2px solid #F0870F;
+  border-radius: 5px;
+}
+
 .DetailContainer{
   display: flex;
   flex-direction: row;
