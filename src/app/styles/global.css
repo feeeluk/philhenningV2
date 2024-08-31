@@ -184,7 +184,7 @@ h3{
 }
 
 .ProjectContainer:hover .Image{
-  border: 2px solid #F0870F;
+  border: 2px solid rgba(240, 135, 15, .400);
   border-radius: 5px;
 }
 
