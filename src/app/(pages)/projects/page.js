@@ -145,7 +145,7 @@ export default function Projects() {
             whiteBoardingTool=""
             link="https://snowcompare.philhenning.co.uk"
             image="snowcompare_screenshot.png"
-            description="This was my first piece of web developrojectManagementToolent coursework at university. Primarily made to showcase my developrojectManagementToolent skills. Use 'username: phil password: phil'"
+            description="This was my first piece of web developrojectManagementToolent coursework at university. Primarily made to showcase my development skills. Use 'username: phil password: phil'"
           />
         </Hover2>
 
