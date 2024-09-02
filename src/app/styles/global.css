@@ -216,6 +216,10 @@ h3{
     padding-right: 10px;
   }
 
+  .Footer{
+    font-size: 11px;
+  }
+
   /* PageLayout */
   .PageLayout{
     width: 600px;
@@ -246,6 +250,10 @@ h3{
 
   p {
     padding: 0px;
+  }
+
+  .Footer{
+    font-size: 11px;
   }
   
   /* PageLayout */

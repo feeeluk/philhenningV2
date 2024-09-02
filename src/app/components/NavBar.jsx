@@ -7,7 +7,7 @@ export default function NavBar(){
         <div className="NavBar">
 
             <div className="Logo">
-                <Image src="/main-logo.png" alt="main-logo" width="450" height="150" />
+                <Image src="/main_logo.png" alt="main logo" width="642" height="135" />
             </div>
 
             <nav class="Link">
@@ -25,14 +25,6 @@ export default function NavBar(){
 
                 <Link href="https://github.com/feeeluk" target="_blank">Git Hub</Link>
                 &nbsp;|&nbsp;
-
-                <Link href="https://stackoverflow.com/users/23801067/phil" target="_blank">Stack Overflow</Link>
-                &nbsp;|&nbsp;
-
-                <Link href="https://miro.com/app/board/uXjVKmPtAGU=/?share_link_id=986521896410" target="_blank">Whiteboard</Link>
-                &nbsp;|&nbsp;
-
-                <Link href="https://1drv.ms/o/s!Ag9ZukAL9sZOog6eqf_5CXVrdJhz?e=QhPtT8" target="_blank">Notes</Link>
                          
             </nav>
             
