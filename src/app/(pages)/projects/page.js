@@ -145,7 +145,7 @@ export default function Projects() {
             whiteBoardingTool=""
             link="https://snowcompare.philhenning.co.uk"
             image="snowcompare_screenshot.png"
-            description="This was my first piece of web developrojectManagementToolent coursework at university. Primarily made to showcase my developrojectManagementToolent skills."
+            description="This was my first piece of web developrojectManagementToolent coursework at university. Primarily made to showcase my developrojectManagementToolent skills. Use 'username: phil password: phil'"
           />
         </Hover2>
 
@@ -159,7 +159,7 @@ export default function Projects() {
             whiteBoardingTool=""
             link="https://snowcompareshop.philhenning.co.uk"
             image="snowcompare_shop_screenshot.png"
-            description="This was my second piece of web developrojectManagementToolent coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end."
+            description="This was my second piece of web developrojectManagementToolent coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end. Use 'username: phil password: phil'"
           />
         </Hover2>
 
