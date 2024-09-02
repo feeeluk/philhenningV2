@@ -40,7 +40,7 @@ export default function Project({name, type, language, db, projectManagementTool
 
                     <div className="ProjectColumn3">
                         
-                        <Link target="blank" href={`${link}`}>
+                        <Link target="_blank" href={`${link}`}>
                             <Image
                                 className="Image"
                                 src={`/Projects/${image}`}
