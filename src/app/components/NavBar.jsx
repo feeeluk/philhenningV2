@@ -24,7 +24,6 @@ export default function NavBar(){
                 &nbsp;|&nbsp;  
 
                 <Link href="https://github.com/feeeluk" target="_blank">Git Hub</Link>
-                &nbsp;|&nbsp;
                          
             </nav>
             
