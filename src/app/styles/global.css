@@ -18,6 +18,7 @@ body {
   text-align: center;
   background-color: #404040;
   color: white;
+  font-weight: 300;
 }
 
 a {
@@ -43,7 +44,7 @@ h3{
 .NavBar{
   position:fixed;
   top: 0;
-  height: 170px;
+  height: 165px;
   width: 100%;
   background-color: #404040;
   z-index: 10;
@@ -54,16 +55,16 @@ h3{
           color: #96B946;
         }
         
-        .Logo Image{
-          border: 0px;
-        }
-        
         /* Links */
         .Link{
           color: #96B946;
-          margin-top: 15px;
+          margin-top: 10px;
           margin-bottom: 15px;
           font-weight: 600;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
         }
                 
   /* Footer */
@@ -84,7 +85,7 @@ h3{
   /* PageLayout */
   .PageLayout{
     margin: auto;
-    margin-top: 170px;
+    margin-top: 165px;
     margin-bottom: 50px;
     }
 
@@ -251,6 +252,10 @@ h3{
     font-size: 14px;
   }
 
+  a{
+    font-size: 17px;
+  }
+
   p {
     padding: 0px;
   }
@@ -265,15 +270,15 @@ h3{
     }
   
   .Name{
-    padding-left: 22%;
+    padding-left: 24%;
   }
 
   .ProjectColumn1{
-    width: 22%;
+    width: 24%;
   }
   
   .ProjectColumn2{
-    width: 46%;
+    width: 44%;
   }
   
   .ProjectColumn3{

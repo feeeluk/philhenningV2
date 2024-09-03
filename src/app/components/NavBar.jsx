@@ -18,12 +18,6 @@ export default function NavBar(){
                 &nbsp;|&nbsp;
 
                 <a href="/CV.pdf" target="blank">CV</a>
-                &nbsp;|&nbsp;
-                
-                <Link href="https://www.linkedin.com/in/philiphenning/" target="_blank">LinkedIn</Link>
-                &nbsp;|&nbsp;  
-
-                <Link href="https://github.com/feeeluk" target="_blank">Git Hub</Link>
                          
             </nav>
             
