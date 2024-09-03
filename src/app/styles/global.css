@@ -43,7 +43,7 @@ h3{
 .NavBar{
   position:fixed;
   top: 0;
-  height: 180px;
+  height: 170px;
   width: 100%;
   background-color: #404040;
   z-index: 10;
@@ -84,7 +84,7 @@ h3{
   /* PageLayout */
   .PageLayout{
     margin: auto;
-    margin-top: 180px;
+    margin-top: 170px;
     margin-bottom: 50px;
     }
 

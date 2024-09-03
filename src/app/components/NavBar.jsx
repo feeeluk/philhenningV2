@@ -7,7 +7,7 @@ export default function NavBar(){
         <div className="NavBar">
 
             <div className="Logo">
-                <Image src="/main_logo.png" alt="main logo" width="642" height="135" />
+                <Image src="/main_logo.png" alt="main logo" width="643" height="127" />
             </div>
 
             <nav class="Link">
